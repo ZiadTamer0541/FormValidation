@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign up Form Master</title>
+  </head>
+  <body>
+    <div class="container py-lg-0 py-5">
+      <div class="row vh-100 align-items-center" id="text">
+        <div class="col-lg-6 text-lg-start text-center">
+          <h1 class="text-white mb-3 fw-bold">
+            Learn to code by watching others
+          </h1>
+          <p class="text-white">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <div class="sign-up">
+            <p class="try-trial text-white text-center p-3 rounded-3">
+              <span class="fw-bold">Try it free 7 days</span> then $20/mo.
+              thereafter
+            </p>
+            <form
+              class="registration bg-white p-lg-4 p-3 d-flex flex-column rounded-3"
+            >
+              <div class="First-Name position-relative main">
+                <span class="text-error-f"></span>
+                <span class="img-error-f"
+                  ><svg
+                    width="24"
+                    height="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g fill="none" fill-rule="evenodd">
+                      <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                      <rect
+                        fill="#FFF"
+                        x="11"
+                        y="6"
+                        width="2"
+                        height="9"
+                        rx="1"
+                      />
+                      <rect
+                        fill="#FFF"
+                        x="11"
+                        y="17"
+                        width="2"
+                        height="2"
+                        rx="1"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  id="First-Name"
+                  constant="First Name"
+                />
+              </div>
+              <div class="Last-Name position-relative main-last">
+                <span class="text-error-l"></span>
+                <span class="img-error-l"
+                  ><svg
+                    width="24"
+                    height="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g fill="none" fill-rule="evenodd">
+                      <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                      <rect
+                        fill="#FFF"
+                        x="11"
+                        y="6"
+                        width="2"
+                        height="9"
+                        rx="1"
+                      />
+                      <rect
+                        fill="#FFF"
+                        x="11"
+                        y="17"
+                        width="2"
+                        height="2"
+                        rx="1"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  id="Last-Name"
+                  constant="Last Name"
+                />
+              </div>
+              <div class="Email position-relative main-e">
+                <span class="text-error-e"></span>
+                <span class="img-error-e"
+                  ><svg
+                    width="24"
+                    height="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g fill="none" fill-rule="evenodd">
+                      <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                      <rect
+                        fill="#FFF"
+                        x="11"
+                        y="6"
+                        width="2"
+                        height="9"
+                        rx="1"
+                      />
+                      <rect
+                        fill="#FFF"
+                        x="11"
+                        y="17"
+                        width="2"
+                        height="2"
+                        rx="1"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <input type="email" placeholder="Email Address" id="Email" />
+              </div>
+              <div class="Password position-relative main-pass">
+                <span class="text-error-p"></span>
+                <span class="img-error-p"
+                  ><svg
+                    width="24"
+                    height="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g fill="none" fill-rule="evenodd">
+                      <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                      <rect
+                        fill="#FFF"
+                        x="11"
+                        y="6"
+                        width="2"
+                        height="9"
+                        rx="1"
+                      />
+                      <rect
+                        fill="#FFF"
+                        x="11"
+                        y="17"
+                        width="2"
+                        height="2"
+                        rx="1"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <input
+                  type="password"
+                  placeholder="Password"
+                  id="Password"
+                  constant="Password"
+                />
+              </div>
+              <input
+                id="submit-form"
+                class="btn text-white rounded-3 p-3"
+                type="submit"
+                value="Claim your free trial"
+              />
+              <p class="text-black-50 text-center mt-3" id="terms">
+                By clicking the button, you are agreeing to our
+                <a class="text-danger" href="#">Terms and Services</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

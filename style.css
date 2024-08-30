@@ -1,0 +1,70 @@
+:root {
+  --Red: #ff7a7a;
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --Dark_Blue: hsl(249, 10%, 26%);
+  --Grayish_Blue: hsl(246, 25%, 77%);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("./images/bg-intro-desktop.png");
+  background-color: var(--Red);
+}
+.try-trial {
+  background-color: var(--Blue);
+  box-shadow: 4px 5px 9px 1px var(--Dark_Blue);
+}
+.registration {
+  box-shadow: 4px 5px 9px 1px var(--Dark_Blue);
+}
+.registration input {
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid var(--Grayish_Blue);
+  width: 100%;
+}
+.registration input:focus {
+  border-color: var(--Blue) !important;
+}
+.registration #submit-form {
+  background-color: var(--Green);
+  box-shadow: 1px 2px 7px 1px #0404045c;
+}
+.sign-up #terms {
+  font-size: 0.7rem;
+}
+.icon {
+  position: absolute;
+  top: 33%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+}
+.error {
+  border: 1px solid var(--Red) !important;
+}
+.wrong {
+  font-style: italic;
+  font-size: 13px;
+  margin: 5px;
+  color: var(--Red);
+  position: absolute;
+  top: 8px;
+  right: 40px;
+}
+.example::placeholder {
+  color: #ff7a7a;
+  font-weight: bold;
+}
+.img-error-f,
+.img-error-l,
+.img-error-e,
+.img-error-p {
+  display: none;
+}
